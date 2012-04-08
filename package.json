@@ -1,7 +1,7 @@
 {
   "name": "mediainfo",
   "description": "Wrapper around the `mediainfo' program for obtaining information about media files",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": {
     "name": "Conrad Pankoff",
     "email": "deoxxa@fknsrs.biz",
