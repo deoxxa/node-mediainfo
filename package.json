@@ -26,6 +26,6 @@
     "node" : ">=0.6.11"
   },
   "dependencies": {
-    "node-expat": "1.4.x"
+    "node-expat": "2.0.x"
   }
 }
