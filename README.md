@@ -122,11 +122,11 @@ node is running as.
 License
 -------
 
-BSD, 3-clause. A copy is included.
+3-clause BSD. A copy is included with the source.
 
 Contact
 -------
 
-* Email: [deoxxa@fknsrs.biz](mailto:deoxxa@fknsrs.biz)
-* Github: [deoxxa](https://github.com/deoxxa)
-* Twitter: [deoxxa](http://twitter.com/#!/deoxxa)
+* GitHub ([deoxxa](http://github.com/deoxxa))
+* Twitter ([@deoxxa](http://twitter.com/deoxxa))
+* Email ([deoxxa@fknsrs.biz](mailto:deoxxa@fknsrs.biz))
