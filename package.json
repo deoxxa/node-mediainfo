@@ -30,6 +30,6 @@
   },
   "dependencies": {
     "node-expat": "2.3.x",
-    "filesize-parser": "~0.0.2"
+    "filesize-parser": "~1.1.0"
   }
 }
