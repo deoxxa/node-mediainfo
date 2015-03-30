@@ -29,7 +29,7 @@
     "node": ">=0.6.11"
   },
   "dependencies": {
-    "node-expat": "2.0.x",
+    "node-expat": "2.3.x",
     "filesize-parser": "~0.0.2"
   }
 }
