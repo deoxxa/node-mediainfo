@@ -1,17 +1,23 @@
 {
-  "name": "mediainfo",
+  "name": "bakaru-mediainfo",
   "description": "Wrapper around the `mediainfo' program for obtaining information about media files",
-  "version": "0.0.2",
+  "version": "0.0.9",
   "author": {
     "name": "Conrad Pankoff",
     "email": "deoxxa@fknsrs.biz",
     "url": "http://www.fknsrs.biz/"
   },
-  "url": "http://github.com/deoxxa/node-mediainfo",
+  "contributors": [
+    {
+      "name": "Alexander Kukhta",
+      "email": "me@thers.io"
+    }
+  ],
+  "url": "http://github.com/bakaru/node-mediainfo",
   "license": "BSD",
   "repository": {
     "type": "git",
-    "url": "git://github.com/deoxxa/node-mediainfo.git"
+    "url": "git://github.com/bakaru/node-mediainfo.git"
   },
   "keywords": [
     "mediainfo",
@@ -24,12 +30,13 @@
     "mkv",
     "avi"
   ],
-  "main": "./lib/mediainfo",
+  "main": "index",
   "engines": {
-    "node": ">=0.6.11"
+    "node": ">=5"
   },
   "dependencies": {
-    "node-expat": "2.0.x",
-    "filesize-parser": "~0.0.2"
+    "bluebird": "3.1.x",
+    "filesize-parser": "1.3.x",
+    "node-expat": "2.3.x"
   }
 }
