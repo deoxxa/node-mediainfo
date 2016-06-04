@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 var util = require("util"),
-    mediainfo = require("./");
+    mediainfo = require("./server/mediainfo/mediainfo.js");
 
-mediainfo("test1.mp3", "test2.mp3", function(err, res) {
+mediainfo("http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4", function(err, res) {
   if (err) {
     return console.log(err);
   }
