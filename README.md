@@ -39,7 +39,3 @@ License
 For media-info wrapper:
 3-clause BSD. A copy is included with the source.
 
-Contact
--------
-
-* Email ([adylevy@gmail.com](mailto:adylevy@gmail.com))
