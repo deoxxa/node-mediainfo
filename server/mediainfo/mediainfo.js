@@ -47,7 +47,7 @@ module.exports = function() {
       }
 
       if (track !== null) {
-        key = name;
+        key = name.replace(/\_+$/g,'');
       }
     });
 

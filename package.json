@@ -1,17 +1,21 @@
 {
   "name": "mediainfo",
-  "description": "Wrapper around the `mediainfo' program for obtaining information about media files",
-  "version": "0.0.2",
+  "description": "Node micro service to return media-info for given url",
+  "version": "0.0.1",
   "author": {
-    "name": "Conrad Pankoff",
-    "email": "deoxxa@fknsrs.biz",
-    "url": "http://www.fknsrs.biz/"
+    "name": "Ady Levy",
+    "email": "ady.levy@teamaol.com",
+    "url": "http://www.adylevy.com/"
   },
-  "url": "http://github.com/deoxxa/node-mediainfo",
+  "url": "https://github.com/adylevy/node-mediainfo",
   "license": "BSD",
   "repository": {
     "type": "git",
-    "url": "git://github.com/deoxxa/node-mediainfo.git"
+    "url": "git://github.com/adylevy/node-mediainfo.git"
+  },
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "mediainfo",
@@ -24,12 +28,19 @@
     "mkv",
     "avi"
   ],
-  "main": "./lib/mediainfo",
+  "main": "index.js",
   "engines": {
     "node": ">=0.6.11"
   },
   "dependencies": {
-    "node-expat": "2.0.x",
-    "filesize-parser": "~0.0.2"
+    "node-expat": "~2.3.13",
+    "filesize-parser": "~1.4.1",
+    "express": "^4.13.3",
+    "cors": "^2.7.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-core": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0"
   }
 }
